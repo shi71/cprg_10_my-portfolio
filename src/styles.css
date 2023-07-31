@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+
+.lpp {
+    text-align: center;
+    width: 70%;
+    margin:0 auto;
+    border-radius:15px;
+    background-image: url("unsplash.jpg");
+    border-color: brown;
+    font-family: 'Borel', cursive; 
+    box-sizing: border-box;
+    
+    border: 4px solid red;
+    padding: 5ch;border-radius: 15px;
+    font-size: 120%;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 300%; font-family: 'Great Vibes', cursive;
+}
+  h3 {
+    text-align:left;
+    font-size: 200%; font-family: 'Great Vibes', cursive;
+  }
+
+  .lpp-logo {
+    height: 60vmin;
+    text-align: center;border: 4px solid lightcoral;
+    border-radius:25px;}
+    
+    .lpp-logo {width:300px; transition: width 4s;}
+    .lpp-logo:hover:hover { width: 500px; }
+  
+  
+
+  
+  /*@media (prefers-reduced-motion: no-preference)
+   {
+    lpp-logo {
+      animation: lpp-logo-spin infinite 10s linear;
+               }
+    }*/
+  
+  .lpp-header {
+    background-color:blue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color:yellowgreen;
+    padding:1rem;
+    
+  }
+
+  p {
+   font-family: 'Times New Roman', Times, serif;
+   color: black; 
+   font-weight: bolder;
+  }
+
+  @keyframes lpp-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
